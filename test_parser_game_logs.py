@@ -1,7 +1,7 @@
 import unittest
 from collections import defaultdict
 
-from log_report import parse_log_file, print_report
+from parser_game_logs import parse_log_file, print_report
 
 class TestQuakeLogParser(unittest.TestCase):
 
