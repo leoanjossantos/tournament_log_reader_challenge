@@ -16,13 +16,6 @@ def parse_log_file(filepath):
                     "kills": defaultdict(int)
                 }
             elif 'Kill' in line:
-                # Process kills
-                # parts = line.split()
-                # killer = parts[5] # Killer Name
-                # victim_start_idx = line.index("killed") + len("killed") + 1
-                # victim_end_idx = line.index("by") - 1
-                # victim = line[victim_start_idx:victim_end_idx].strip() # Victim Name
-
                 parts = line.split()
                 killer_start_idx = line.index(parts[5])
                 killer_end_idx = line.index("killed") - 1
