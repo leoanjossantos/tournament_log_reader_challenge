@@ -85,6 +85,6 @@ def print_report(games, player_ranking):
     return report_string
 
 if __name__ == "__main__":
-    log_file_path = "logs.log"  # Path to your log file
+    log_file_path = "logs.txt"  # Path to your log file
     games, player_ranking = parse_log_file(log_file_path)
     print_report(games, player_ranking)
