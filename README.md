@@ -1,2 +1,3 @@
-# tournament_log_reader_challenge
+# Tournament Log Reader Challenge
+
 Read a tournament log and print the report
