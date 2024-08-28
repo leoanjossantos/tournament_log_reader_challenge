@@ -2,6 +2,8 @@
 
 This project parses a Quake 3 Arena server log file, extracts and organizes game data, and generates a detailed report of player performances and rankings.
 
+⚠️ Missing improvement: Consider SUICIDE on the report
+
 ## Table of Contents
 
 - [Features](#features)
